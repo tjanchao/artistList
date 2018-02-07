@@ -26,6 +26,7 @@
 		49A87CF7202B62B800B0B88D /* artist6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49A87CF1202B62B800B0B88D /* artist6.jpg */; };
 		49A87CF9202B63B800B0B88D /* ArtistOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CF8202B63B800B0B88D /* ArtistOverviewViewController.swift */; };
 		49A87CFB202B6CB200B0B88D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CFA202B6CB200B0B88D /* CustomTableViewCell.swift */; };
+		49A87CFF202BB95E00B0B88D /* experimentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CFE202BB95E00B0B88D /* experimentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		49A87CF1202B62B800B0B88D /* artist6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = artist6.jpg; path = ../../../Documents/artist6.jpg; sourceTree = "<group>"; };
 		49A87CF8202B63B800B0B88D /* ArtistOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistOverviewViewController.swift; sourceTree = "<group>"; };
 		49A87CFA202B6CB200B0B88D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		49A87CFE202BB95E00B0B88D /* experimentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = experimentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				49A87CEA202B4FA200B0B88D /* AllArtists.swift */,
 				49A87CCE202B4AE300B0B88D /* AppDelegate.swift */,
 				49A87CF8202B63B800B0B88D /* ArtistOverviewViewController.swift */,
+				49A87CFE202BB95E00B0B88D /* experimentViewController.swift */,
 				49A87CD0202B4AE300B0B88D /* ViewController.swift */,
 				49A87CFA202B6CB200B0B88D /* CustomTableViewCell.swift */,
 				49A87CD2202B4AE300B0B88D /* Main.storyboard */,
@@ -192,6 +195,7 @@
 				49A87CEB202B4FA200B0B88D /* AllArtists.swift in Sources */,
 				49A87CE7202B4D4200B0B88D /* Stage.swift in Sources */,
 				49A87CF9202B63B800B0B88D /* ArtistOverviewViewController.swift in Sources */,
+				49A87CFF202BB95E00B0B88D /* experimentViewController.swift in Sources */,
 				49A87CCF202B4AE300B0B88D /* AppDelegate.swift in Sources */,
 				49A87CE9202B4E5200B0B88D /* Genre.swift in Sources */,
 			);
