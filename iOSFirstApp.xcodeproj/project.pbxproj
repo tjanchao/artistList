@@ -18,6 +18,14 @@
 		49A87CE7202B4D4200B0B88D /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CE6202B4D4200B0B88D /* Stage.swift */; };
 		49A87CE9202B4E5200B0B88D /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CE8202B4E5200B0B88D /* Genre.swift */; };
 		49A87CEB202B4FA200B0B88D /* AllArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CEA202B4FA200B0B88D /* AllArtists.swift */; };
+		49A87CF2202B62B800B0B88D /* artist1.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A87CEC202B62B800B0B88D /* artist1.png */; };
+		49A87CF3202B62B800B0B88D /* artist2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A87CED202B62B800B0B88D /* artist2.png */; };
+		49A87CF4202B62B800B0B88D /* artist3.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A87CEE202B62B800B0B88D /* artist3.png */; };
+		49A87CF5202B62B800B0B88D /* artist4.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A87CEF202B62B800B0B88D /* artist4.png */; };
+		49A87CF6202B62B800B0B88D /* artist5.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A87CF0202B62B800B0B88D /* artist5.png */; };
+		49A87CF7202B62B800B0B88D /* artist6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49A87CF1202B62B800B0B88D /* artist6.jpg */; };
+		49A87CF9202B63B800B0B88D /* ArtistOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CF8202B63B800B0B88D /* ArtistOverviewViewController.swift */; };
+		49A87CFB202B6CB200B0B88D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A87CFA202B6CB200B0B88D /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +42,14 @@
 		49A87CE6202B4D4200B0B88D /* Stage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
 		49A87CE8202B4E5200B0B88D /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		49A87CEA202B4FA200B0B88D /* AllArtists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllArtists.swift; sourceTree = "<group>"; };
+		49A87CEC202B62B800B0B88D /* artist1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artist1.png; path = ../../../Documents/artist1.png; sourceTree = "<group>"; };
+		49A87CED202B62B800B0B88D /* artist2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artist2.png; path = ../../../Documents/artist2.png; sourceTree = "<group>"; };
+		49A87CEE202B62B800B0B88D /* artist3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artist3.png; path = ../../../Documents/artist3.png; sourceTree = "<group>"; };
+		49A87CEF202B62B800B0B88D /* artist4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artist4.png; path = ../../../Documents/artist4.png; sourceTree = "<group>"; };
+		49A87CF0202B62B800B0B88D /* artist5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artist5.png; path = ../../../Documents/artist5.png; sourceTree = "<group>"; };
+		49A87CF1202B62B800B0B88D /* artist6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = artist6.jpg; path = ../../../Documents/artist6.jpg; sourceTree = "<group>"; };
+		49A87CF8202B63B800B0B88D /* ArtistOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistOverviewViewController.swift; sourceTree = "<group>"; };
+		49A87CFA202B6CB200B0B88D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,12 @@
 		49A87CCD202B4AE300B0B88D /* iOSFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				49A87CEC202B62B800B0B88D /* artist1.png */,
+				49A87CED202B62B800B0B88D /* artist2.png */,
+				49A87CEE202B62B800B0B88D /* artist3.png */,
+				49A87CEF202B62B800B0B88D /* artist4.png */,
+				49A87CF0202B62B800B0B88D /* artist5.png */,
+				49A87CF1202B62B800B0B88D /* artist6.jpg */,
 				49A87CE0202B4BA100B0B88D /* emptyHeart.png */,
 				49A87CE1202B4BA100B0B88D /* filledHeart.png */,
 				49A87CE8202B4E5200B0B88D /* Genre.swift */,
@@ -73,7 +95,9 @@
 				49A87CE4202B4C9100B0B88D /* Artist.swift */,
 				49A87CEA202B4FA200B0B88D /* AllArtists.swift */,
 				49A87CCE202B4AE300B0B88D /* AppDelegate.swift */,
+				49A87CF8202B63B800B0B88D /* ArtistOverviewViewController.swift */,
 				49A87CD0202B4AE300B0B88D /* ViewController.swift */,
+				49A87CFA202B6CB200B0B88D /* CustomTableViewCell.swift */,
 				49A87CD2202B4AE300B0B88D /* Main.storyboard */,
 				49A87CD5202B4AE300B0B88D /* Assets.xcassets */,
 				49A87CD7202B4AE300B0B88D /* LaunchScreen.storyboard */,
@@ -141,11 +165,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A87CF4202B62B800B0B88D /* artist3.png in Resources */,
+				49A87CF5202B62B800B0B88D /* artist4.png in Resources */,
 				49A87CE2202B4BA100B0B88D /* emptyHeart.png in Resources */,
+				49A87CF3202B62B800B0B88D /* artist2.png in Resources */,
+				49A87CF6202B62B800B0B88D /* artist5.png in Resources */,
 				49A87CD9202B4AE300B0B88D /* LaunchScreen.storyboard in Resources */,
 				49A87CD6202B4AE300B0B88D /* Assets.xcassets in Resources */,
 				49A87CE3202B4BA100B0B88D /* filledHeart.png in Resources */,
+				49A87CF2202B62B800B0B88D /* artist1.png in Resources */,
 				49A87CD4202B4AE300B0B88D /* Main.storyboard in Resources */,
+				49A87CF7202B62B800B0B88D /* artist6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +188,10 @@
 			files = (
 				49A87CE5202B4C9100B0B88D /* Artist.swift in Sources */,
 				49A87CD1202B4AE300B0B88D /* ViewController.swift in Sources */,
+				49A87CFB202B6CB200B0B88D /* CustomTableViewCell.swift in Sources */,
 				49A87CEB202B4FA200B0B88D /* AllArtists.swift in Sources */,
 				49A87CE7202B4D4200B0B88D /* Stage.swift in Sources */,
+				49A87CF9202B63B800B0B88D /* ArtistOverviewViewController.swift in Sources */,
 				49A87CCF202B4AE300B0B88D /* AppDelegate.swift in Sources */,
 				49A87CE9202B4E5200B0B88D /* Genre.swift in Sources */,
 			);
