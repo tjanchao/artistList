@@ -129,6 +129,15 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfH-Jz-NtH">
+                                            <rect key="frame" x="243" y="46" width="74" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button" image="emptyHeart.png"/>
+                                            <state key="selected" image="filledHeart.png"/>
+                                            <connections>
+                                                <action selector="heartButtonPressed:" destination="x1F-cb-WMz" eventType="touchUpInside" id="M5z-mk-4Dr"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -209,6 +218,10 @@
             <point key="canvasLocation" x="2000.8" y="802.848575712144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="emptyHeart.png" width="20" height="20"/>
+        <image name="filledHeart.png" width="20" height="20"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CQN-eY-QZf"/>
     </inferredMetricsTieBreakers>

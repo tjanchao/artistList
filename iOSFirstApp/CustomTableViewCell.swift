@@ -32,8 +32,17 @@ class CustomTableViewCell: UITableViewCell {
     
     
     
+    //default image en selected image voor button heb ik geset in storyboard in attrribute inspector van button
     
-    
+    @IBAction func heartButtonPressed(_ sender: UIButton) {
+        if sender.isSelected == false {
+            sender.isSelected = true
+            sender.setImage(UIImage.init(named: "filledHeart.png"), for: .selected)
+        } else {
+            sender.isSelected = false
+            sender.setImage(UIImage.init(named: "emptyHeart.png"), for: .normal)
+        }
+    }
     
     
     
